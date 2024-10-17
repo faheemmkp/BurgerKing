@@ -1,0 +1,138 @@
+header{
+    background-color: rgb(255, 201, 22);
+    color: rgb(179, 4, 4);
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    margin: 30px;
+}
+header h1:hover{
+    color: rgb(214, 17, 17);
+}
+header ul li:hover{
+    color: rgb(230, 63, 2);
+}
+header h1{
+    margin-top: 50px;
+    font-size: xx-large;
+}
+header ul{
+    display: flex;
+    margin: 20px;
+    list-style: none;
+    font-size: x-large;
+}
+#banner{
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/27/14/18/fast-food-333140_1280.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(179, 4, 4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(236, 193, 2);
+}
+img{
+    width: 220px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* border-radius: 50%; */
+
+}
+h3{
+color: darkred;
+font-style: oblique;
+margin: 10px;
+}
+h4{
+    margin: 10px;
+    justify-content: center;
+
+    color: rgb(207, 27, 14);
+}
+p{
+    margin: 10px;
+}
+.row{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    width: 600px;
+    height: 500px;
+}
+.id{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 193);
+}
+.cols{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.id{
+display: flex;
+list-style: none;
+margin: 20px;
+
+}ul
+{
+    list-style: none;
+    float: left;
+    justify-content: space-around;
+    align-content: center;
+}
+li{
+    margin-left: -40px;
+}
+button{
+    align-items: center;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
+.id{
+    width: 100%;
+    height: 400px;
+    border:  4px solid rgb(236, 193, 2);
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+#banner img{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    margin-bottom: 40px;
+}
+#banner button{
+    width: 80px;
+    height: 40px;
+    float: right;
+    background-color: rgb(179, 4, 4);
+    color: white;
+    margin: 60px;
+}
+
